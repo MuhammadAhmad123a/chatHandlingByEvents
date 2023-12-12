@@ -3,7 +3,7 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      nodejs: 18.x
+      nodejs: 16.x
     commands:
       - echo "No commands in the install phase"
 
