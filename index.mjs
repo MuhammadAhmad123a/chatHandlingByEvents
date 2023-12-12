@@ -46,7 +46,7 @@ export const handler = async (event) => {
     let eventType1;
     let initiationMethod1;
 
-    //console.log("Event details: ", JSON.stringify(event));
+    //console.log("Event details: ", JSON.stringify(event)); 
     logger.debug(`Event details: ${JSON.stringify(event)}`);
 
     let contactId;
